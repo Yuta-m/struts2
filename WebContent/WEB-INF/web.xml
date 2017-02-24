@@ -9,7 +9,7 @@ id="WebApp_ID" version="3.1">
 
 <filter>
  	<filter-name>struts2</filter-name>
- 	<filter-class>org.apache.stuts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+ 	<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
 </filter>
 
 <filter-mapping>

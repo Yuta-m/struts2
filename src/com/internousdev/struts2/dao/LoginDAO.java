@@ -23,6 +23,8 @@ public class LoginDAO {
 			LoginDTO dto=new LoginDTO();
 
 			String sql ="select * from user where user_name=? and password=?";
+			System.out.println(name);
+			System.out.println(password);
 			try{
 				PreparedStatement ps = con.prepareStatement(sql);
 				ps.setString(1,name);
